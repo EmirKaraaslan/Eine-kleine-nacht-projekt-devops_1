@@ -1,0 +1,8 @@
+replicaCount: 2
+image:
+  repository: <REPLACE_ME_LATER> #Burayı github Actions set edecek
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 3000
