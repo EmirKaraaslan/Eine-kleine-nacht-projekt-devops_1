@@ -1,11 +1,9 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: node-service
 spec:
-  replicas:
-    "{ .Values.replicaCount }": null
+  replicas: {{.Values.replicaCount}}
   selector:
     matchLabels:
       app: node-service
