@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('CI/CD Pipline is  now working');
+    res.send('Boom Bitch!!!');
 });
 
 app.listen(port, () => {
