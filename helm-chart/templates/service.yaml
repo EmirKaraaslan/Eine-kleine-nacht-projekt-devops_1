@@ -4,13 +4,11 @@ kind: Service
 metadata:
   name: node-service
 spec:
-  type:
-    ? { ? { .Values.service.type } }
-    : null
+  type: { { .Values.service.type } }
+
   selector:
     app: node-service
   ports:
-  - port:
-      ? { ? { .Values.service.port } }
-      : null
-    targetPort: 3000
+    - port:
+        { { .Values.service.port } }: null
+      targetPort: 3000
