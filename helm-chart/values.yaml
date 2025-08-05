@@ -2,6 +2,7 @@ replicaCount: 2
 image:
   repository: <REPLACE_ME_LATER> #Burayı github Actions set edecek
   tag: latest
+  pullPolicy: Always
 
 service:
   type: LoadBalancer
