@@ -1,0 +1,53 @@
+/* Temel sıfırlama */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #e2514a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Section */
+section {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+    font-size: 0.9em;
+}
