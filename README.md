@@ -33,18 +33,6 @@ This project implements a production-grade **CI/CD pipeline** using:
 
 ---
 
-## 🛠 Folder Structure
-
-.
-├── .github/workflows/ # GitHub Actions CI/CD pipeline
-├── app/ # Node.js app source code
-│ └── index.js
-├── helm-chart/ # Helm deployment templates
-│ ├── templates/
-│ │ ├── deployment.yaml
-│ │ └── service.yaml
-│ └── values.yaml
-└── README.md
 
 
 ## ⚙️ How it works
